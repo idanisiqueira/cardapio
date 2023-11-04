@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Concert One', sans-serif;
+    font-family: 'Questrial', sans-serif;
+}
+
+body {
+    background-image: url(assets/bg.png);
+}
+
+container {
+    display: block;
+    color: #fff;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 60px;
+}
+
+button {
+    cursor: pointer;
+    background-color: #ADFF2F;
+    font-size: 17px;
+    width: 100px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 0 5px;
+}
+
+button:hover {
+    box-shadow: rgb(165, 130, 20) 5px 5px, rgb(240, 215, 120) 0 0 60px;
+    color: rgb(165, 130, 20);
+}
+
+button:active {
+    background-color: rgb(255, 255, 20);
+    box-shadow: rgb(165, 130, 20) 1px 1px;
+}
+
+.products {
+    color: rgb(255, 255, 20);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
+}
+
+img {
+    width: 160px;
+    height: 150px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.hamburguers {
+    border: 2px solid rgb(255, 255, 20);
+    display: inline-block;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 20px 20px;
+    cursor: pointer;
+    box-shadow: rgb(240, 215, 120) 0 0 10px;
+}
+
+.value {
+    font-size: 18px;
+    margin-top: 5px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #ADFF2F;
+}
+
+.message {
+    border: 2px solid rgb(255, 255, 20);
+    display: block;
+    margin: 20px auto 20px auto;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: rgb(240, 215, 120) 0 0 10px;
+    color: rgb(255, 255, 20);
+    width: 285px;
+}
+
+@media screen and (max-width:650px) {
+
+    button {
+        margin: 10px 16px;
+    }
+
+    img {
+        width: 140px;
+        height: 130px;
+        border-radius: 10px;
+        margin-bottom: 5px;
+    }
+
+    .hamburguers {
+        margin: 15px 10px;
+    }
+
+    .products {
+        width: 370px;
+        margin-top:-45px;
+        margin-left:20px;
+    }
+
+    .value {
+        font-size: 15px;
+    }
+
+    .message {
+        margin: 95px 45px 20px auto;
+    }
+}
